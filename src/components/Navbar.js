@@ -49,11 +49,11 @@ function Navbar(props) {
           </li>
           <li className="nav-item">
             <Link
-              to="/ourwork"
+              to="/portfolio"
               className="nav-link"
-              style={isActive("/ourwork")}
+              style={isActive("/portfolio")}
             >
-              Our Work
+              Portfolio
             </Link>
           </li>
           <li className="nav-item">

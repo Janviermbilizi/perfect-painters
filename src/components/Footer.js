@@ -27,8 +27,8 @@ function Footer(props) {
                 </Link>
               </li>
               <li>
-                <Link className="text-dark" to="/ourwork">
-                  Our Work
+                <Link className="text-dark" to="/portfolio">
+                  Portfolio
                 </Link>
               </li>
               <li>
