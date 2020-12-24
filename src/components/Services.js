@@ -19,7 +19,7 @@ function Services(props) {
           >
             <div className="col-md-6 order-md-2">
               <div
-                id="carouselExampleControls"
+                id="residential"
                 className="carousel slide"
                 data-interval="false"
               >
@@ -51,7 +51,7 @@ function Services(props) {
                 </div>
                 <a
                   className="carousel-control-prev"
-                  href="#carouselExampleControls"
+                  href="#residential"
                   role="button"
                   data-slide="prev"
                 >
@@ -63,7 +63,7 @@ function Services(props) {
                 </a>
                 <a
                   className="carousel-control-next"
-                  href="#carouselExampleControls"
+                  href="#residential"
                   role="button"
                   data-slide="next"
                 >
@@ -143,7 +143,7 @@ function Services(props) {
           >
             <div className="col-md-6 mx-auto">
               <div
-                id="carouselExampleControls2"
+                id="commercial"
                 className="carousel slide"
                 data-interval="false"
               >
@@ -175,7 +175,7 @@ function Services(props) {
                 </div>
                 <a
                   className="carousel-control-prev"
-                  href="#carouselExampleControls2"
+                  href="#commercial"
                   role="button"
                   data-slide="prev"
                 >
@@ -187,7 +187,7 @@ function Services(props) {
                 </a>
                 <a
                   className="carousel-control-next"
-                  href="#carouselExampleControls2"
+                  href="#commercial"
                   role="button"
                   data-slide="next"
                 >
@@ -266,7 +266,7 @@ function Services(props) {
           >
             <div className="col-md-6 order-md-2">
               <div
-                id="carouselExampleControls"
+                id="interior"
                 className="carousel slide"
                 data-interval="false"
               >
@@ -298,7 +298,7 @@ function Services(props) {
                 </div>
                 <a
                   className="carousel-control-prev"
-                  href="#carouselExampleControls"
+                  href="#interior"
                   role="button"
                   data-slide="prev"
                 >
@@ -310,7 +310,7 @@ function Services(props) {
                 </a>
                 <a
                   className="carousel-control-next"
-                  href="#carouselExampleControls"
+                  href="#interior"
                   role="button"
                   data-slide="next"
                 >
@@ -390,7 +390,7 @@ function Services(props) {
           >
             <div className="col-md-6 mx-auto">
               <div
-                id="carouselExampleControls2"
+                id="exterior"
                 className="carousel slide"
                 data-interval="false"
               >
@@ -422,7 +422,7 @@ function Services(props) {
                 </div>
                 <a
                   className="carousel-control-prev"
-                  href="#carouselExampleControls2"
+                  href="#exterior"
                   role="button"
                   data-slide="prev"
                 >
@@ -434,7 +434,7 @@ function Services(props) {
                 </a>
                 <a
                   className="carousel-control-next"
-                  href="#carouselExampleControls2"
+                  href="#exterior"
                   role="button"
                   data-slide="next"
                 >
