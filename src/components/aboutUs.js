@@ -15,7 +15,7 @@ function AboutUs(props) {
             data-aos-duration="4000"
           >
             <div className="col-md-6 order-md-2">
-              <div id="ppimage1" class="carousel slide" data-ride="carousel">
+              <div id="ppimage1" class="carousel slide" data-interval="false">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img
@@ -133,7 +133,7 @@ function AboutUs(props) {
             data-aos-duration="4000"
           >
             <div className="col-md-6 mx-auto">
-              <div id="ppimage2" class="carousel slide" data-ride="carousel">
+              <div id="ppimage2" class="carousel slide" data-interval="false">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img
