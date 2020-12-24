@@ -15,11 +15,7 @@ function AboutUs(props) {
             data-aos-duration="4000"
           >
             <div className="col-md-6 order-md-2">
-              <div
-                id="carouselExampleControls"
-                class="carousel slide"
-                data-ride="carousel"
-              >
+              <div id="ppimage1" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img
@@ -48,7 +44,7 @@ function AboutUs(props) {
                 </div>
                 <a
                   class="carousel-control-prev"
-                  href="#carouselExampleControls"
+                  href="#ppimage1"
                   role="button"
                   data-slide="prev"
                 >
@@ -60,7 +56,7 @@ function AboutUs(props) {
                 </a>
                 <a
                   class="carousel-control-next"
-                  href="#carouselExampleControls"
+                  href="#ppimage1"
                   role="button"
                   data-slide="next"
                 >
@@ -137,11 +133,7 @@ function AboutUs(props) {
             data-aos-duration="4000"
           >
             <div className="col-md-6 mx-auto">
-              <div
-                id="carouselExampleControls2"
-                class="carousel slide"
-                data-ride="carousel"
-              >
+              <div id="ppimage2" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img
@@ -170,7 +162,7 @@ function AboutUs(props) {
                 </div>
                 <a
                   class="carousel-control-prev"
-                  href="#carouselExampleControls2"
+                  href="#ppimage2"
                   role="button"
                   data-slide="prev"
                 >
@@ -182,7 +174,7 @@ function AboutUs(props) {
                 </a>
                 <a
                   class="carousel-control-next"
-                  href="#carouselExampleControls2"
+                  href="#ppimage2"
                   role="button"
                   data-slide="next"
                 >
