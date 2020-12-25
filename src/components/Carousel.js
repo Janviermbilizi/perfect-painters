@@ -31,7 +31,7 @@ function Carousel(props) {
           />
           <div className="carousel-caption">
             <h5>RESIDENTIAL PAINTING</h5>
-            <p className="col-md-lead">
+            <p className="lead">
               Your home is a reflection of you, and as a local residential
               painting contractor, we understand the importance of your space.
               From prep to clean-up, you will know you are in good hands. As
@@ -52,7 +52,7 @@ function Carousel(props) {
           />
           <div className="carousel-caption">
             <h5>COMMERCIAL PAINTING</h5>
-            <p className="col-md-lead">
+            <p className="lead">
               When hiring a painting contractor for your commercial space, we
               acknowledge that your needs and the scope of work will vary. We
               work with your schedule to ensure there is little to no disruption
@@ -73,7 +73,7 @@ function Carousel(props) {
           />
           <div className="carousel-caption ">
             <h5>EXTERIOR PAINTING</h5>
-            <p className="col-md-lead">
+            <p className="lead">
               If you are searching for an exterior house painter, you need to
               find a team that can take care of every step of the process. We
               are sure to adequately prep every surface to ensure great
@@ -92,7 +92,7 @@ function Carousel(props) {
           />
           <div className="carousel-caption ">
             <h5>INTERIOR PAINTING</h5>
-            <p className="col-md-lead">
+            <p className="lead">
               We offer top-notch interior painting services. Every member of our
               crew has years of experience that they use to ensure your space
               looks great. From start to finish, you need an interior painting
