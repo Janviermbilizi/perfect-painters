@@ -3,7 +3,8 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import ServicesPage from "./pages/ServicesPage";
-import aboutUsPage from "./pages/aboutUsPage";
+import PortfolioPage from "./pages/PortfolioPage";
+import AboutUsPage from "./pages/aboutUsPage";
 
 const Routes = () => {
   return (
@@ -12,7 +13,8 @@ const Routes = () => {
         <Route path="/" exact component={HomePage} />
         <Route path="/contact" exact component={ContactPage} />
         <Route path="/services" exact component={ServicesPage} />
-        <Route path="/aboutus" exact component={aboutUsPage} />
+        <Route path="/aboutus" exact component={AboutUsPage} />
+        <Route path="/portfolio" exact component={PortfolioPage} />
       </Switch>
     </BrowserRouter>
   );
