@@ -18,8 +18,10 @@ const Layout = ({ children, match }) => {
   return (
     <>
       {head()}
-      <Header />
-      <Navbar match={match} />
+      <div className="sticky-top">
+        <Header />
+        <Navbar match={match} />
+      </div>
       <div className="container-fluid p-0 m-0">{children}</div>
       <Footer />
     </>
