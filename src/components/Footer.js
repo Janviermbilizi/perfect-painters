@@ -7,7 +7,7 @@ function Footer(props) {
     <div className="jumbotron jumbotron-fluid py-3 m-0 ">
       <div className="container-fuid px-md-5">
         <div className="row m-0">
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4 col-sm-12">
             <h4>Navigation</h4>
             <hr />
             <ul className="list-unstyled">
@@ -48,7 +48,7 @@ function Footer(props) {
               </li>
             </ul>
           </div>
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4 col-sm-12">
             <h4>Contact Info</h4>
             <hr />
             <ul className="list-unstyled">
@@ -57,7 +57,7 @@ function Footer(props) {
               <li>301-865-9833 | jformeller57@yahoo.com</li>
             </ul>
           </div>
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-4 col-sm-12">
             <h4>Our Philosophy</h4>
             <hr />
             <p>

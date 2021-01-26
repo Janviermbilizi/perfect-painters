@@ -3,7 +3,7 @@ import Commercial from "../images/commercialP.png";
 import Interior from "../images/interior3.jpg";
 import Residential from "../images/residential.jpeg";
 import Exterior from "../images/exterior2.jpg";
-import { PhoneOutlined, SendOutlined, MailOutlined } from "@ant-design/icons";
+
 import Title from "./Title";
 
 function Portfolio(props) {
@@ -15,7 +15,7 @@ function Portfolio(props) {
           <div
             className="row align-items-center"
             data-aos="zoom-in-down"
-            data-aos-duration="4000"
+            //data-aos-duration="4000"
           >
             <div className="col-md-6">
               <h3 className="section-title text-muted">Before</h3>
@@ -140,7 +140,7 @@ function Portfolio(props) {
           <div
             className="row align-items-center"
             data-aos="zoom-in-down"
-            data-aos-duration="4000"
+            //data-aos-duration="4000"
           >
             <div className="col-md-6">
               <h3 className="section-title text-muted">Before</h3>
@@ -265,7 +265,7 @@ function Portfolio(props) {
           <div
             className="row align-items-center"
             data-aos="zoom-in-down"
-            data-aos-duration="4000"
+            //data-aos-duration="4000"
           >
             <div className="col-md-6">
               <h3 className="section-title text-muted">Before</h3>
@@ -390,7 +390,7 @@ function Portfolio(props) {
           <div
             className="row align-items-center"
             data-aos="zoom-in-down"
-            data-aos-duration="4000"
+            //data-aos-duration="4000"
           >
             <div className="col-md-6">
               <h3 className="section-title text-muted">Before</h3>

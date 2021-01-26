@@ -15,7 +15,7 @@ function Services(props) {
           <div
             className="row align-items-center"
             data-aos="zoom-in-down"
-            data-aos-duration="4000"
+            // data-aos-duration="4000"
           >
             <div className="col-md-6 order-md-2">
               <div
@@ -139,7 +139,7 @@ function Services(props) {
           <div
             className="row align-items-center"
             data-aos="zoom-in-down"
-            data-aos-duration="4000"
+            //data-aos-duration="4000"
           >
             <div className="col-md-6 mx-auto">
               <div
@@ -262,7 +262,7 @@ function Services(props) {
           <div
             className="row align-items-center"
             data-aos="zoom-in-down"
-            data-aos-duration="4000"
+            //data-aos-duration="4000"
           >
             <div className="col-md-6 order-md-2">
               <div
@@ -386,7 +386,7 @@ function Services(props) {
           <div
             className="row align-items-center"
             data-aos="zoom-in-down"
-            data-aos-duration="4000"
+            //data-aos-duration="4000"
           >
             <div className="col-md-6 mx-auto">
               <div

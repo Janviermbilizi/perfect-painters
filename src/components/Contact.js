@@ -146,7 +146,7 @@ function Contact(props) {
                       id="message"
                       className="form-control "
                       cols="30"
-                      rows="8"
+                      rows="3"
                     ></textarea>
                   </div>
                 </div>
