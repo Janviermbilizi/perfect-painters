@@ -14,7 +14,7 @@ function Services(props) {
         <div className="container-fluid">
           <div
             className="row align-items-center"
-            data-aos="zoom-in-down"
+            //data-aos="zoom-in-down"
             // data-aos-duration="4000"
           >
             <div className="col-md-6 order-md-2">
@@ -59,7 +59,7 @@ function Services(props) {
                     className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="sr-only">Previous</span>
+                  <span className="sr-only">Previous</span>
                 </a>
                 <a
                   className="carousel-control-next"
@@ -138,7 +138,7 @@ function Services(props) {
           <hr />
           <div
             className="row align-items-center"
-            data-aos="zoom-in-down"
+            //data-aos="zoom-in-down"
             //data-aos-duration="4000"
           >
             <div className="col-md-6 mx-auto">
@@ -261,7 +261,7 @@ function Services(props) {
           <hr />
           <div
             className="row align-items-center"
-            data-aos="zoom-in-down"
+            //data-aos="zoom-in-down"
             //data-aos-duration="4000"
           >
             <div className="col-md-6 order-md-2">
@@ -385,7 +385,7 @@ function Services(props) {
           <hr />
           <div
             className="row align-items-center"
-            data-aos="zoom-in-down"
+            //data-aos="zoom-in-down"
             //data-aos-duration="4000"
           >
             <div className="col-md-6 mx-auto">

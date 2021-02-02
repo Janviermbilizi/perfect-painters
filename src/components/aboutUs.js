@@ -11,13 +11,17 @@ function AboutUs(props) {
         <div className="container-fluid">
           <div
             className="row align-items-center"
-            data-aos="zoom-in-down"
-            data-aos-duration="4000"
+            //data-aos="zoom-in-down"
+            //data-aos-duration="4000"
           >
             <div className="col-md-6 order-md-2">
-              <div id="ppimage1" class="carousel slide" data-interval="false">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+              <div
+                id="ppimage1"
+                className="carousel slide"
+                data-interval="false"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
                     <img
                       className="py-2 m-0"
                       src={Logo}
@@ -25,7 +29,7 @@ function AboutUs(props) {
                       alt="owner"
                     />
                   </div>
-                  <div class="carousel-item">
+                  <div className="carousel-item">
                     <img
                       className="py-2 m-0"
                       src={Logo}
@@ -33,7 +37,7 @@ function AboutUs(props) {
                       alt="owner"
                     />
                   </div>
-                  <div class="carousel-item">
+                  <div className="carousel-item">
                     <img
                       className="py-2 m-0"
                       src={Logo}
@@ -43,28 +47,28 @@ function AboutUs(props) {
                   </div>
                 </div>
                 <a
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   href="#ppimage1"
                   role="button"
                   data-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="sr-only">Previous</span>
+                  <span className="sr-only">Previous</span>
                 </a>
                 <a
-                  class="carousel-control-next"
+                  className="carousel-control-next"
                   href="#ppimage1"
                   role="button"
                   data-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="sr-only">Next</span>
+                  <span className="sr-only">Next</span>
                 </a>
               </div>
             </div>
@@ -129,13 +133,17 @@ function AboutUs(props) {
           <hr />
           <div
             className="row align-items-center"
-            data-aos="zoom-in-down"
-            data-aos-duration="4000"
+            //data-aos="zoom-in-down"
+            //data-aos-duration="4000"
           >
             <div className="col-md-6 mx-auto">
-              <div id="ppimage2" class="carousel slide" data-interval="false">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
+              <div
+                id="ppimage2"
+                className="carousel slide"
+                data-interval="false"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
                     <img
                       className="py-2 m-0"
                       src={Logo}
@@ -143,7 +151,7 @@ function AboutUs(props) {
                       alt="owner"
                     />
                   </div>
-                  <div class="carousel-item">
+                  <div className="carousel-item">
                     <img
                       className="py-2 m-0"
                       src={Logo}
@@ -151,7 +159,7 @@ function AboutUs(props) {
                       alt="owner"
                     />
                   </div>
-                  <div class="carousel-item">
+                  <div className="carousel-item">
                     <img
                       className="py-2 m-0"
                       src={Logo}
@@ -161,28 +169,28 @@ function AboutUs(props) {
                   </div>
                 </div>
                 <a
-                  class="carousel-control-prev"
+                  className="carousel-control-prev"
                   href="#ppimage2"
                   role="button"
                   data-slide="prev"
                 >
                   <span
-                    class="carousel-control-prev-icon"
+                    className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="sr-only">Previous</span>
+                  <span className="sr-only">Previous</span>
                 </a>
                 <a
-                  class="carousel-control-next"
+                  className="carousel-control-next"
                   href="#ppimage2"
                   role="button"
                   data-slide="next"
                 >
                   <span
-                    class="carousel-control-next-icon"
+                    className="carousel-control-next-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="sr-only">Next</span>
+                  <span className="sr-only">Next</span>
                 </a>
               </div>
             </div>

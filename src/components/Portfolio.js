@@ -14,7 +14,7 @@ function Portfolio(props) {
         <div className="container-fluid">
           <div
             className="row align-items-center"
-            data-aos="zoom-in-down"
+            //data-aos="zoom-in-down"
             //data-aos-duration="4000"
           >
             <div className="col-md-6">
@@ -60,7 +60,7 @@ function Portfolio(props) {
                     className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="sr-only">Previous</span>
+                  <span className="sr-only">Previous</span>
                 </a>
                 <a
                   className="carousel-control-next"
@@ -119,7 +119,7 @@ function Portfolio(props) {
                     className="carousel-control-prev-icon"
                     aria-hidden="true"
                   ></span>
-                  <span class="sr-only">Previous</span>
+                  <span className="sr-only">Previous</span>
                 </a>
                 <a
                   className="carousel-control-next"
@@ -139,7 +139,7 @@ function Portfolio(props) {
           <hr />
           <div
             className="row align-items-center"
-            data-aos="zoom-in-down"
+            //data-aos="zoom-in-down"
             //data-aos-duration="4000"
           >
             <div className="col-md-6">
@@ -264,7 +264,7 @@ function Portfolio(props) {
           <hr />
           <div
             className="row align-items-center"
-            data-aos="zoom-in-down"
+            //data-aos="zoom-in-down"
             //data-aos-duration="4000"
           >
             <div className="col-md-6">
@@ -389,7 +389,7 @@ function Portfolio(props) {
           <hr />
           <div
             className="row align-items-center"
-            data-aos="zoom-in-down"
+            //data-aos="zoom-in-down"
             //data-aos-duration="4000"
           >
             <div className="col-md-6">

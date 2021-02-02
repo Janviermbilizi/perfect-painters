@@ -11,7 +11,7 @@ const Layout = ({ children, match }) => {
   const head = () => (
     <Helmet>
       <meta charSet="utf-8" />
-      <title>PP</title>
+      <title>The Perfect Painters</title>
       <link rel="canonical" href="https://mern-stack.com" />
     </Helmet>
   );
