@@ -34,7 +34,13 @@ function Navbar(props) {
       <div className="collapse navbar-collapse" id="navbarText">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <Link to="/" className="nav-link" style={isActive("/")}>
+            <Link
+              to="/"
+              className="nav-link"
+              style={isActive("/")}
+              onMouseEnter={(i) => (i.target.style.color = "red")}
+              onMouseLeave={(i) => (i.target.style.color = "black")}
+            >
               Home
             </Link>
           </li>
@@ -43,6 +49,8 @@ function Navbar(props) {
               to="/services"
               className="nav-link"
               style={isActive("/services")}
+              onMouseEnter={(i) => (i.target.style.color = "red")}
+              onMouseLeave={(i) => (i.target.style.color = "black")}
             >
               Services
             </Link>
@@ -52,6 +60,8 @@ function Navbar(props) {
               to="/portfolio"
               className="nav-link"
               style={isActive("/portfolio")}
+              onMouseEnter={(i) => (i.target.style.color = "red")}
+              onMouseLeave={(i) => (i.target.style.color = "black")}
             >
               Portfolio
             </Link>
@@ -61,6 +71,8 @@ function Navbar(props) {
               to="/aboutus"
               className="nav-link"
               style={isActive("/aboutus")}
+              onMouseEnter={(i) => (i.target.style.color = "red")}
+              onMouseLeave={(i) => (i.target.style.color = "black")}
             >
               About US
             </Link>
@@ -69,6 +81,8 @@ function Navbar(props) {
             <Link
               to="/contact"
               className="nav-link"
+              onMouseEnter={(i) => (i.target.style.color = "red")}
+              onMouseLeave={(i) => (i.target.style.color = "black")}
               style={isActive("/contact")}
             >
               Contact
