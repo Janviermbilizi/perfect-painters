@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Title from "./Title";
 import { PhoneOutlined, SendOutlined, MailOutlined } from "@ant-design/icons";
 import { create } from "./apiCalls";
+const { REACT_APP_PERFECT_PAINTERS_API_URL } = process.env;
 //import axios from "axios";
 
 const Contact = (props) => {
@@ -60,32 +61,33 @@ const Contact = (props) => {
     };
     //console.log(formToSubmit);
 
-    create(`http://localhost:3000/api/paintingrequest`, customer).then(
-      (data) => {
-        if (data.error) {
-          setValues({
-            ...values,
-            buttonText: "Send Message",
-            error: data.error,
-          });
-        } else {
-          setValues({
-            ...values,
-            username: "",
-            phone: "",
-            email: "",
-            address: "",
-            address2: "",
-            city: "",
-            state: "",
-            zip: "",
-            message: "",
-            buttonText: "Submitted",
-            success: data.message,
-          });
-        }
+    create(
+      `${REACT_APP_PERFECT_PAINTERS_API_URL}/paintingrequest`,
+      customer
+    ).then((data) => {
+      if (data.error) {
+        setValues({
+          ...values,
+          buttonText: "Send Message",
+          error: data.error,
+        });
+      } else {
+        setValues({
+          ...values,
+          username: "",
+          phone: "",
+          email: "",
+          address: "",
+          address2: "",
+          city: "",
+          state: "",
+          zip: "",
+          message: "",
+          buttonText: "Submitted",
+          success: data.message,
+        });
       }
-    );
+    });
   };
 
   return (
