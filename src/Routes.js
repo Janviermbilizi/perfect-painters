@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, HashRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ContactPage from "./pages/ContactPage";
 import ServicesPage from "./pages/ServicesPage";
@@ -8,7 +8,7 @@ import AboutUsPage from "./pages/aboutUsPage";
 
 const Routes = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/contact" exact component={ContactPage} />
@@ -16,7 +16,7 @@ const Routes = () => {
         <Route path="/aboutus" exact component={AboutUsPage} />
         <Route path="/portfolio" exact component={PortfolioPage} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
