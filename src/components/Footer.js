@@ -37,12 +37,12 @@ function Footer(props) {
                 </Link>
               </li>
               <li>
-                <Link className="text-dark" to="/community">
+                <Link className="text-dark" to="/">
                   Community
                 </Link>
               </li>
               <li>
-                <Link className="text-dark" to="/privacypolicy">
+                <Link className="text-dark" to="/">
                   Privacy Policy
                 </Link>
               </li>
