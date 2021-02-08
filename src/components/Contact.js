@@ -11,13 +11,15 @@ const Contact = (props) => {
     lastname: "",
     phone: "",
     email: "",
+    servicecategory: "",
+    servicearea: "",
     address: "",
     address2: "",
     city: "",
     state: "",
     zip: "",
     message: "",
-    buttonText: "Send Message",
+    buttonText: "Submit Request",
     error: "",
     success: "",
   });
@@ -36,6 +38,8 @@ const Contact = (props) => {
     lastname,
     phone,
     email,
+    servicecategory,
+    servicearea,
     address,
     address2,
     city,
@@ -55,6 +59,8 @@ const Contact = (props) => {
       lastname,
       phone,
       email,
+      servicecategory,
+      servicearea,
       address,
       address2,
       city,
@@ -81,13 +87,15 @@ const Contact = (props) => {
           lastname: "",
           phone: "",
           email: "",
+          servicecategory: "",
+          servicearea: "",
           address: "",
           address2: "",
           city: "",
           state: "",
           zip: "",
           message: "",
-          buttonText: "Submitted",
+          buttonText: "Request Submitted",
           success: data.message,
         });
       }
@@ -96,7 +104,7 @@ const Contact = (props) => {
 
   return (
     <>
-      <Title title="Contact" />
+      <Title title="Get An Estimate!" />
       <div className="jumbotron jumbotron-fluid text-center bg-white py-2">
         <div className="container space2">
           {/* <div
@@ -211,6 +219,41 @@ const Contact = (props) => {
                       id="email"
                       className="form-control "
                     ></input>
+                  </div>
+                </div>
+
+                <div className="row">
+                  <div className="col-md-6 form-group">
+                    <label htmlFor="servicecategory">Service Category</label>
+                    <select
+                      id="inputServicecategory"
+                      onChange={handleChange("servicecategory")}
+                      value={servicecategory}
+                      className="form-control"
+                    >
+                      <option defaultValue>Choose...</option>
+                      <option>Commercial painting</option>
+                      <option>Residential painting</option>
+                    </select>
+                  </div>
+                  <div className="col-md-6 form-group">
+                    <label htmlFor="servicearea">Service Area</label>
+                    <select
+                      id="inputServicearea"
+                      onChange={handleChange("servicearea")}
+                      value={servicearea}
+                      className="form-control"
+                    >
+                      <option defaultValue>Choose...</option>
+                      <option>Exterior painting</option>
+                      <option>Interior painting</option>
+                      <option>Interior & Exterior painting</option>
+                      <option>Paint cabinets</option>
+                      <option>Paint doors</option>
+                      <option>Repair drywall</option>
+                      <option>Repair water damage</option>
+                      <option>Staining</option>
+                    </select>
                   </div>
                 </div>
 
