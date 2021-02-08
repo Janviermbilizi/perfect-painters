@@ -7,7 +7,8 @@ const { REACT_APP_PERFECT_PAINTERS_API_URL } = process.env;
 
 const Contact = (props) => {
   const [values, setValues] = useState({
-    username: "",
+    firstname: "",
+    lastname: "",
     phone: "",
     email: "",
     address: "",
@@ -31,7 +32,8 @@ const Contact = (props) => {
     });
   };
   const {
-    username,
+    firstname,
+    lastname,
     phone,
     email,
     address,
@@ -49,7 +51,8 @@ const Contact = (props) => {
     event.preventDefault();
     setValues({ ...values, buttonText: "Submitting..." });
     const customer = {
-      username,
+      firstname,
+      lastname,
       phone,
       email,
       address,
@@ -74,7 +77,8 @@ const Contact = (props) => {
       } else {
         setValues({
           ...values,
-          username: "",
+          firstname: "",
+          lastname: "",
           phone: "",
           email: "",
           address: "",
@@ -93,9 +97,9 @@ const Contact = (props) => {
   return (
     <>
       <Title title="Contact" />
-      <div className="jumbotron jumbotron-fluid text-center bg-white">
+      <div className="jumbotron jumbotron-fluid text-center bg-white py-2">
         <div className="container space2">
-          <div
+          {/* <div
             className="row"
             //data-aos="zoom-in-down"
             //data-aos-duration="4000"
@@ -141,7 +145,7 @@ const Contact = (props) => {
                 </span>
               </p>
             </div>
-          </div>
+          </div> */}
 
           {error.length != 0 ? (
             <div className="row text-danger">
@@ -167,15 +171,27 @@ const Contact = (props) => {
               <form method="post">
                 <div className="row">
                   <div className="col-md-6 form-group">
-                    <label htmlFor="name">Name/Company</label>
+                    <label htmlFor="name">First Name</label>
                     <input
                       type="text"
-                      onChange={handleChange("username")}
-                      value={username}
-                      id="name"
+                      onChange={handleChange("firstname")}
+                      value={firstname}
+                      id="firstname"
                       className="form-control "
                     ></input>
                   </div>
+                  <div className="col-md-6 form-group">
+                    <label htmlFor="phone">Last Name</label>
+                    <input
+                      type="text"
+                      onChange={handleChange("lastname")}
+                      value={lastname}
+                      id="lastname"
+                      className="form-control "
+                    ></input>
+                  </div>
+                </div>
+                <div className="row">
                   <div className="col-md-6 form-group">
                     <label htmlFor="phone">Phone</label>
                     <input
@@ -186,9 +202,7 @@ const Contact = (props) => {
                       className="form-control "
                     ></input>
                   </div>
-                </div>
-                <div className="row">
-                  <div className="col-md-12 form-group">
+                  <div className="col-md-6 form-group">
                     <label htmlFor="email">Email</label>
                     <input
                       type="email"
