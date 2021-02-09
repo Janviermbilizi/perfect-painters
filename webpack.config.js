@@ -33,7 +33,7 @@ module.exports = {
   devServer: {
     contentBase: path.join(__dirname, "public"),
     compress: true,
-    public: "http://ec2-18-209-9-59.compute-1.amazonaws.com/",
+    public: "http://ec2-18-209-9-59.compute-1.amazonaws.com",
     port: 3000,
   },
   plugins: [
