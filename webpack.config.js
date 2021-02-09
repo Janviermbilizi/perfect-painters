@@ -1,6 +1,5 @@
 const path = require("path");
 const Dotenv = require("dotenv-webpack");
-const { REACT_APP_DOMAIN_NAME, REACT_APP_EC2_LINK } = process.env;
 
 module.exports = {
   entry: "./src/index.js",
@@ -33,7 +32,10 @@ module.exports = {
   devtool: "cheap-module-eval-source-map",
   devServer: {
     contentBase: path.join(__dirname, "public"),
-    allowedHosts: [`${REACT_APP_EC2_LINK}`, `${REACT_APP_DOMAIN_NAME}`],
+    allowedHosts: [
+      "ec2-18-209-9-59.compute-1.amazonaws.com",
+      "perfectpaintersmd.com",
+    ],
     port: 3000,
   },
   plugins: [
