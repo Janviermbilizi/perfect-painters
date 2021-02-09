@@ -17,7 +17,7 @@
   },
   "scripts": {
     "dev": "webpack --mode=development",
-    "build": "webpack --mode=production",
+    "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
