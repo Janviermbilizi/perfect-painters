@@ -33,7 +33,7 @@ module.exports = {
   devtool: "cheap-module-eval-source-map",
   devServer: {
     contentBase: path.join(__dirname, "public"),
-    allowedHosts: [REACT_APP_EC2_LINK, REACT_APP_DOMAIN_NAME],
+    allowedHosts: [`${REACT_APP_EC2_LINK}`, `${REACT_APP_DOMAIN_NAME}`],
     port: 3000,
   },
   plugins: [
