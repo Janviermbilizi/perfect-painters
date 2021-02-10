@@ -84,22 +84,7 @@ function AboutUs(props) {
               </p>
 
               <div className="row">
-                <div className="col-lg-4">
-                  <p className="float-md-left">
-                    <SendOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "30px" }}>
-                      Ijamsville, MD 21754
-                    </span>
-                  </p>
-                </div>
-                <div className="col-lg-4">
+                <div className="col-lg-6">
                   <p className="float-md-center">
                     <PhoneOutlined
                       className="pr-1"
@@ -109,10 +94,10 @@ function AboutUs(props) {
                         paddingTop: "2px",
                       }}
                     />{" "}
-                    <span style={{ lineHeight: "35px" }}>(301) 865-9833</span>
+                    <span style={{ lineHeight: "35px" }}>1(301) 865-9833</span>
                   </p>
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-6">
                   <p className="float-md-right">
                     <MailOutlined
                       className="pr-1"
@@ -123,7 +108,7 @@ function AboutUs(props) {
                       }}
                     />{" "}
                     <span className="px-1" style={{ lineHeight: "30px" }}>
-                      jformeller57@yahoo.com
+                      theperfectpaintersmd@gmail.com
                     </span>
                   </p>
                 </div>
@@ -206,22 +191,7 @@ function AboutUs(props) {
                 lovely and beautiful daughter.
               </p>
               <div className="row">
-                <div className="col-md-4">
-                  <p className="float-md-left">
-                    <SendOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "30px" }}>
-                      Ijamsville, MD 21754
-                    </span>
-                  </p>
-                </div>
-                <div className="col-md-4">
+                <div className="col-lg-6">
                   <p className="float-md-center">
                     <PhoneOutlined
                       className="pr-1"
@@ -231,10 +201,10 @@ function AboutUs(props) {
                         paddingTop: "2px",
                       }}
                     />{" "}
-                    <span style={{ lineHeight: "35px" }}>(301) 865-9833</span>
+                    <span style={{ lineHeight: "35px" }}>1(301) 865-9833</span>
                   </p>
                 </div>
-                <div className="col-md-4">
+                <div className="col-lg-6">
                   <p className="float-md-right">
                     <MailOutlined
                       className="pr-1"
@@ -245,7 +215,7 @@ function AboutUs(props) {
                       }}
                     />{" "}
                     <span className="px-1" style={{ lineHeight: "30px" }}>
-                      jformeller57@yahoo.com
+                      theperfectpaintersmd@gmail.com
                     </span>
                   </p>
                 </div>
