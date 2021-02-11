@@ -22,7 +22,7 @@ function Carousel(props) {
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ol>
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        <div className="carousel-item">
           <img
             className="d-block w-100"
             src={Residential}
@@ -30,7 +30,7 @@ function Carousel(props) {
             alt="First slide"
           />
           <div className="carousel-caption">
-            <h5>RESIDENTIAL PAINTING</h5>
+            <h2 className="text-dark">RESIDENTIAL PAINTING</h2>
             <p className="lead">
               Your home is a reflection of you, and as a local residential
               painting contractor, we understand the importance of your space.
@@ -51,7 +51,7 @@ function Carousel(props) {
             alt="Second slide"
           />
           <div className="carousel-caption">
-            <h5>COMMERCIAL PAINTING</h5>
+            <h2 className="text-white">COMMERCIAL PAINTING</h2>
             <p className="lead">
               When hiring a painting contractor for your commercial space, we
               acknowledge that your needs and the scope of work will vary. We
@@ -64,7 +64,7 @@ function Carousel(props) {
             </p>
           </div>
         </div>
-        <div className="carousel-item">
+        <div className="carousel-item active">
           <img
             className="d-block w-100"
             src={Exterior2}
@@ -72,7 +72,7 @@ function Carousel(props) {
             alt="Third slide"
           />
           <div className="carousel-caption ">
-            <h5>EXTERIOR PAINTING</h5>
+            <h2 className="text-dark">EXTERIOR PAINTING</h2>
             <p className="lead">
               If you are searching for an exterior house painter, you need to
               find a team that can take care of every step of the process. We
@@ -91,7 +91,7 @@ function Carousel(props) {
             alt="Forth slide"
           />
           <div className="carousel-caption ">
-            <h5>INTERIOR PAINTING</h5>
+            <h2 className="text-dark">INTERIOR PAINTING</h2>
             <p className="lead">
               We offer top-notch interior painting services. Every member of our
               crew has years of experience that they use to ensure your space
