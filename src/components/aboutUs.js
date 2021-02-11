@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../images/ppLogo.jpg";
-import { PhoneOutlined, SendOutlined, MailOutlined } from "@ant-design/icons";
 import Title from "./Title";
+import PhoneAndEmailRow from "./PhoneAndEmailRow";
 
 function AboutUs(props) {
   return (
@@ -82,37 +82,7 @@ function AboutUs(props) {
                 place a dream place. The Perfect Painters has gained trust and
                 love from the community.
               </p>
-
-              <div className="row">
-                <div className="col-lg-6">
-                  <p className="float-md-center">
-                    <PhoneOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "35px" }}>1(301) 865-9833</span>
-                  </p>
-                </div>
-                <div className="col-lg-6">
-                  <p className="float-md-right">
-                    <MailOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span className="px-1" style={{ lineHeight: "30px" }}>
-                      theperfectpaintersmd@gmail.com
-                    </span>
-                  </p>
-                </div>
-              </div>
+              <PhoneAndEmailRow />
             </div>
           </div>
           <hr />
@@ -190,36 +160,7 @@ function AboutUs(props) {
                 Formeller is your guy. John is a husband and father of one
                 lovely and beautiful daughter.
               </p>
-              <div className="row">
-                <div className="col-lg-6">
-                  <p className="float-md-center">
-                    <PhoneOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "35px" }}>1(301) 865-9833</span>
-                  </p>
-                </div>
-                <div className="col-lg-6">
-                  <p className="float-md-right">
-                    <MailOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span className="px-1" style={{ lineHeight: "30px" }}>
-                      theperfectpaintersmd@gmail.com
-                    </span>
-                  </p>
-                </div>
-              </div>
+              <PhoneAndEmailRow />
             </div>
           </div>
         </div>

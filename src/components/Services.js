@@ -5,6 +5,7 @@ import Residential from "../images/residential.jpeg";
 import Exterior from "../images/exterior2.jpg";
 import { PhoneOutlined, SendOutlined, MailOutlined } from "@ant-design/icons";
 import Title from "./Title";
+import PhoneAndEmailRow from "./PhoneAndEmailRow";
 
 function Services(props) {
   return (
@@ -87,52 +88,7 @@ function Services(props) {
                 efficiently. When you're looking for a house painting
                 contractor, only choose the best!
               </p>
-
-              <div className="row">
-                <div className="col-lg-4">
-                  <p className="float-md-left">
-                    <SendOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "30px" }}>
-                      Ijamsville, MD 21754
-                    </span>
-                  </p>
-                </div>
-                <div className="col-lg-4">
-                  <p className="float-md-center">
-                    <PhoneOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "35px" }}>(301) 865-9833</span>
-                  </p>
-                </div>
-                <div className="col-lg-4">
-                  <p className="float-md-right">
-                    <MailOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span className="px-1" style={{ lineHeight: "30px" }}>
-                      jformeller57@yahoo.com
-                    </span>
-                  </p>
-                </div>
-              </div>
+              <PhoneAndEmailRow />
             </div>
           </div>
           <hr />
@@ -211,51 +167,7 @@ function Services(props) {
                 painting company for a commercial project - large or small -
                 give us a call!
               </p>
-              <div className="row">
-                <div className="col-md-4">
-                  <p className="float-md-left">
-                    <SendOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "30px" }}>
-                      Ijamsville, MD 21754
-                    </span>
-                  </p>
-                </div>
-                <div className="col-md-4">
-                  <p className="float-md-center">
-                    <PhoneOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "35px" }}>(301) 865-9833</span>
-                  </p>
-                </div>
-                <div className="col-md-4">
-                  <p className="float-md-right">
-                    <MailOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span className="px-1" style={{ lineHeight: "30px" }}>
-                      jformeller57@yahoo.com
-                    </span>
-                  </p>
-                </div>
-              </div>
+              <PhoneAndEmailRow />
             </div>
           </div>
           <hr />
@@ -335,51 +247,7 @@ function Services(props) {
                 exceed expectations in every step of the project.
               </p>
 
-              <div className="row">
-                <div className="col-lg-4">
-                  <p className="float-md-left">
-                    <SendOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "30px" }}>
-                      Ijamsville, MD 21754
-                    </span>
-                  </p>
-                </div>
-                <div className="col-lg-4">
-                  <p className="float-md-center">
-                    <PhoneOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "35px" }}>(301) 865-9833</span>
-                  </p>
-                </div>
-                <div className="col-lg-4">
-                  <p className="float-md-right">
-                    <MailOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span className="px-1" style={{ lineHeight: "30px" }}>
-                      jformeller57@yahoo.com
-                    </span>
-                  </p>
-                </div>
-              </div>
+              <PhoneAndEmailRow />
             </div>
           </div>
           <hr />
@@ -457,51 +325,7 @@ function Services(props) {
                 want to update your home's curb appeal, we are happy to serve
                 you.
               </p>
-              <div className="row">
-                <div className="col-md-4">
-                  <p className="float-md-left">
-                    <SendOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "30px" }}>
-                      Ijamsville, MD 21754
-                    </span>
-                  </p>
-                </div>
-                <div className="col-md-4">
-                  <p className="float-md-center">
-                    <PhoneOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span style={{ lineHeight: "35px" }}>(301) 865-9833</span>
-                  </p>
-                </div>
-                <div className="col-md-4">
-                  <p className="float-md-right">
-                    <MailOutlined
-                      className="pr-1"
-                      style={{
-                        fontSize: "25px",
-                        color: "#08c",
-                        paddingTop: "2px",
-                      }}
-                    />{" "}
-                    <span className="px-1" style={{ lineHeight: "30px" }}>
-                      jformeller57@yahoo.com
-                    </span>
-                  </p>
-                </div>
-              </div>
+              <PhoneAndEmailRow />
             </div>
           </div>
         </div>
