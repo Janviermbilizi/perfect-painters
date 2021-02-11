@@ -53,8 +53,8 @@ function Footer(props) {
             <hr />
             <ul className="list-unstyled">
               <li>The Perfect Painters</li>
-              <li>2751 Lock Haven Dr | Ijamsville, Maryland</li>
-              <li>301-865-9833 | jformeller57@yahoo.com</li>
+              <li>2751 Loch Haven Dr | Ijamsville, Maryland</li>
+              <li>301-865-9833 | theperfectpaintersmd@gmail.com</li>
             </ul>
           </div>
           <div className="col-md-4 col-sm-12">
