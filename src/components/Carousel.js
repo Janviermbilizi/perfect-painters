@@ -26,11 +26,25 @@ function Carousel(props) {
           <img
             className="d-block w-100"
             src={Residential}
-            style={{ height: "500px", width: "100%" }}
+            style={{
+              height: "500px",
+              width: "100%",
+              fontFamily: "object-fit: cover",
+              //filter: "grayscale(100%)",
+              //webkitFilter: "grayscale(100%)",
+            }}
             alt="First slide"
           />
-          <div className="carousel-caption">
-            <h2 className="text-dark">RESIDENTIAL PAINTING</h2>
+          <div
+            className="carousel-caption"
+            style={{
+              color: "white",
+              backgroundColor: "black",
+              marginX: "5%",
+              opacity: "0.7",
+            }}
+          >
+            <h2 className="">RESIDENTIAL PAINTING</h2>
             <p className="lead">
               Your home is a reflection of you, and as a local residential
               painting contractor, we understand the importance of your space.
@@ -47,10 +61,24 @@ function Carousel(props) {
           <img
             className="d-block w-100"
             src={Commercial}
-            style={{ height: "500px", width: "100%" }}
+            style={{
+              height: "500px",
+              width: "100%",
+              fontFamily: "object-fit: cover",
+              //filter: "grayscale(100%)",
+              //webkitFilter: "grayscale(100%)",
+            }}
             alt="Second slide"
           />
-          <div className="carousel-caption">
+          <div
+            className="carousel-caption"
+            style={{
+              color: "white",
+              backgroundColor: "black",
+              marginX: "5%",
+              opacity: "0.7",
+            }}
+          >
             <h2 className="text-white">COMMERCIAL PAINTING</h2>
             <p className="lead">
               When hiring a painting contractor for your commercial space, we
@@ -68,11 +96,25 @@ function Carousel(props) {
           <img
             className="d-block w-100"
             src={Exterior2}
-            style={{ height: "500px", width: "100%" }}
+            style={{
+              height: "500px",
+              width: "100%",
+              fontFamily: "object-fit: cover",
+              //filter: "grayscale(100%)",
+              //webkitFilter: "grayscale(100%)",
+            }}
             alt="Third slide"
           />
-          <div className="carousel-caption ">
-            <h2 className="text-dark">EXTERIOR PAINTING</h2>
+          <div
+            className="carousel-caption"
+            style={{
+              color: "white",
+              backgroundColor: "black",
+              marginX: "5%",
+              opacity: "0.7",
+            }}
+          >
+            <h2 className="">EXTERIOR PAINTING</h2>
             <p className="lead">
               If you are searching for an exterior house painter, you need to
               find a team that can take care of every step of the process. We
@@ -87,11 +129,25 @@ function Carousel(props) {
           <img
             className="d-block w-100"
             src={Interior}
-            style={{ height: "500px", width: "100%" }}
+            style={{
+              height: "500px",
+              width: "100%",
+              fontFamily: "object-fit: cover",
+              //filter: "grayscale(100%)",
+              //webkitFilter: "grayscale(100%)",
+            }}
             alt="Forth slide"
           />
-          <div className="carousel-caption ">
-            <h2 className="text-dark">INTERIOR PAINTING</h2>
+          <div
+            className="carousel-caption"
+            style={{
+              color: "white",
+              backgroundColor: "black",
+              marginX: "5%",
+              opacity: "0.7",
+            }}
+          >
+            <h2 className="">INTERIOR PAINTING</h2>
             <p className="lead">
               We offer top-notch interior painting services. Every member of our
               crew has years of experience that they use to ensure your space
