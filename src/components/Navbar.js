@@ -15,10 +15,11 @@ function Navbar(props) {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link
         to="/"
-        style={{ color: "red", fontFamily: "sans-serif" }}
+        style={{ fontFamily: "sans-serif" }}
         className="navbar-brand"
       >
-        <img style={{ height: "60px", width: "80px" }} src={Logo} alt="logo" />
+        <img style={{ height: "50px", width: "70px" }} src={Logo} alt="logo" />{" "}
+        <small className="font-weight-bold">The Perfect Painters</small>
       </Link>
       <button
         className="navbar-toggler"
