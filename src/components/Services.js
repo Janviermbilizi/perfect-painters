@@ -3,7 +3,6 @@ import Commercial from "../images/commercialP.png";
 import Interior from "../images/interior3.jpg";
 import Residential from "../images/residential.jpeg";
 import Exterior from "../images/exterior2.jpg";
-import { PhoneOutlined, SendOutlined, MailOutlined } from "@ant-design/icons";
 import Title from "./Title";
 import PhoneAndEmailRow from "./PhoneAndEmailRow";
 
@@ -78,7 +77,7 @@ function Services(props) {
             </div>
             <div className="col-md-6 mr-auto">
               <h2 className="mb-md-5 section-title">RESIDENTIAL PAINTING</h2>
-              <p className="lead mb-5">
+              <p className="lead mb-md-5">
                 Your home is a reflection of you, and as a local residential
                 painting contractor, we understand the importance of your space.
                 From prep to clean-up, you will know you are in good hands. As
@@ -157,7 +156,7 @@ function Services(props) {
             </div>
             <div className="col-md-6 mr-auto">
               <h2 className="mb-md-5 section-title">COMMERCIAL PAINTING</h2>
-              <p className="lead mb-5">
+              <p className="lead mb-md-5">
                 When hiring a painting contractor for your commercial space, we
                 acknowledge that your needs and the scope of work will vary. We
                 work with your schedule to ensure there is little to no
@@ -236,7 +235,7 @@ function Services(props) {
             </div>
             <div className="col-md-6 mr-auto">
               <h2 className="mb-md-5 section-title">INTERIOR PAINTING</h2>
-              <p className="lead mb-5">
+              <p className="lead mb-md-5">
                 We offer top-notch interior painting services. Every member of
                 our crew has years of experience that they use to ensure your
                 space looks great. From start to finish, you need an interior
@@ -316,7 +315,7 @@ function Services(props) {
             </div>
             <div className="col-md-6 mr-auto">
               <h2 className="mb-md-5 section-title">EXTERIOR PAINTING</h2>
-              <p className="lead mb-5">
+              <p className="lead mb-md-5">
                 If you are searching for an exterior house painter, you need to
                 find a team that can take care of every step of the process. We
                 are sure to adequately prep every surface to ensure great

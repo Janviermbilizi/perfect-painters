@@ -74,7 +74,7 @@ function AboutUs(props) {
             </div>
             <div className="col-md-6 mr-auto">
               <h2 className="mb-md-5 section-title">The Perfect Painters</h2>
-              <p className="lead mb-5">
+              <p className="lead mb-md-5">
                 The perfect painters was founded by John Formeller in 1990.
                 Since then, the company has been painting homes, buisnesses, and
                 even local museums in the DMV Metro Area. The company offers
@@ -151,7 +151,7 @@ function AboutUs(props) {
             </div>
             <div className="col-md-6 mr-auto">
               <h2 className="mb-md-5 section-title">John Formeller</h2>
-              <p className="lead mb-5">
+              <p className="lead mb-md-5">
                 John has been painting for over thirty years. He is an expert in
                 his feild, painting homes, buisnesses, and even local museums.
                 He is passionate about making houses feel and look like dream
