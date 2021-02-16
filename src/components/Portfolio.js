@@ -327,7 +327,7 @@ function Portfolio(props) {
               </div>
             </div>
             <div className="col-md-6 mr-auto">
-              <h3 className="section-title text-muted">Before</h3>
+              <h3 className="section-title text-muted">After</h3>
               <div
                 id="interior"
                 className="carousel slide"

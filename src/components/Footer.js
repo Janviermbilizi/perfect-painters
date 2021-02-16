@@ -2,7 +2,7 @@ import React from "react";
 import { FacebookOutlined } from "@ant-design/icons";
 import { Link } from "react-router-dom";
 
-function Footer(props) {
+function Footer() {
   return (
     <div className="jumbotron jumbotron-fluid py-3 m-0 ">
       <div className="container-fuid px-md-5">
@@ -17,7 +17,13 @@ function Footer(props) {
                 </Link>
               </li>
               <li>
-                <Link className="text-dark" to="/contact">
+                <Link
+                  className="text-dark"
+                  type="button"
+                  data-toggle="modal"
+                  data-target="#modalCenterQuiz"
+                  to="/"
+                >
                   Contact
                 </Link>
               </li>

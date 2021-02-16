@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <div className="jumbotron jumbotron-fluid text-center py-0 m-0">
       <div className="row py-2 m-0">
-        <div className="col-6 col-sm-7 text-left">
+        <div className="col-6 col-sm-7 text-left pr-1">
           <PhoneOutlined
             className="float-left pr-1"
             style={{
@@ -19,8 +19,14 @@ function Header(props) {
             (301) 865-9833
           </div>
         </div>
-        <div className="col-6 col-sm-5 text-right">
-          <Link to="/contact" type="button" className="btn btn-primary">
+        <div className="col-6 col-sm-5 text-right pl-1">
+          <Link
+            to="/#"
+            type="button"
+            data-toggle="modal"
+            data-target="#modalCenterQuiz"
+            className="btn btn-primary"
+          >
             FREE ESTIMATE
           </Link>
         </div>

@@ -80,11 +80,15 @@ function Navbar(props) {
           </li>
           <li className="nav-item">
             <Link
-              to="/contact"
+              type="button"
+              data-toggle="modal"
+              data-target="#modalCenterQuiz"
               className="nav-link"
+              to="/#"
+              style={{ color: "black" }}
               onMouseEnter={(i) => (i.target.style.color = "red")}
               onMouseLeave={(i) => (i.target.style.color = "black")}
-              style={isActive("/contact")}
+              // style={isActive("/contact")}
             >
               Contact
             </Link>
